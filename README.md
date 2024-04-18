@@ -1,6 +1,6 @@
 # Sample submission guideline
 
-When submitting data to the lab, please fill out [the data submission file](blob:https://github.com/905f952d-18ae-4372-acca-db676f0abf19) and send it to [clauwaer@umich.edu](mailto:clauwaer@umich.edu). Please keep the `.csv` file format after editing. as such, do not use comma’s within field entries.
+When submitting data to the lab, please fill out [the data submission file](https://github.com/Prensner-Lab/sample_submission/blob/main/sample_submission_prensner_lab.csv) and send it to [clauwaer@umich.edu](mailto:clauwaer@umich.edu). Please keep the `.csv` file format after editing. as such, do not use comma’s within field entries.
 
 This helper sheet provides additional information to fill out every field.
 
