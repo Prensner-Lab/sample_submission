@@ -1,0 +1,7 @@
+# PI name ,{...},,,,,,,,,,,
+# Date,{...},,,,,,,,,,,
+# Submitter name,{...},,,,,,,,,,,
+# Submitter email,{...},,,,,,,,,,,
+# Project title,{...},,,,,,,,,,,
+# Project description,{...},,,,,,,,,,,
+run_id,smart_id,data_type,species,type,source_id,control_experimental,replicate_num,is_paired_end,read_end,experimental_type,dose,description
