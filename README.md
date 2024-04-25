@@ -25,14 +25,14 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 
   Samples with identical smart_id’s are only merged if they have the same values in the `data_type` and `read_end` field. `smart_id` is furthermore used to identify samples in the result reports. As such, make sure the smart_id carries all identifying information relevant for identification within the project (e.g., control/replicate/dose/…)
 
-  Example for RNA_seq:
+  Example for RNA_seq data featuring two biological replicates:
 
   | **run_id** | **smart_id** |
   | --- | --- |
-  | DIPG13_K27M_5Gy_1_S135_R1.fastq.gz | DIPG13_K27M_5Gy_1_S135 |
-  | DIPG13_K27M_5Gy_1_S135_R2.fastq.gz | DIPG13_K27M_5Gy_1_S135 |
-  | DIPG13_K27M_5Gy_2_S135_R1.fastq.gz | DIPG13_K27M_5Gy_2_S135 |
-  | DIPG13_K27M_5Gy_2_S135_R2.fastq.gz | DIPG13_K27M_5Gy_2_S135 |
+  | DIPG13_K27M_5Gy_1_S135_R1.fastq.gz | DIPG13_K27M_5Gy_1 |
+  | DIPG13_K27M_5Gy_1_S135_R2.fastq.gz | DIPG13_K27M_5Gy_1 |
+  | DIPG13_K27M_5Gy_2_S135_R1.fastq.gz | DIPG13_K27M_5Gy_2 |
+  | DIPG13_K27M_5Gy_2_S135_R2.fastq.gz | DIPG13_K27M_5Gy_2 |
 
 - `data_type`: Please use one of the following terms:
   - RNA_seq
