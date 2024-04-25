@@ -19,7 +19,7 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 
 - `run_id`: Current file name of the sample. Exclude the file extension and verify the ID is not a substring of another ID in the list.
 - `smart_id`: determines downstream processing of the samples through several rules. Samples are supposed to share the same smart_id if:
-  - They are meant to be merged, e.g. multiple runs.
+  - They are meant to be merged, e.g. multiple technical replicates. Don't use the same `smart_id` for biological replicates!
   - They contain paired-end samples (e.g. R1 and R2; see field `read_end`)
   - They only differ from their data protocol (e.g. RNA_seq/Ribo_seq; see field `data_type`)
 
