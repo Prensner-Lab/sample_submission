@@ -46,7 +46,7 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 - `type`: Please use one of the following: autopsy/tissue_sample/cell_line
 - `source_id`: Cell line code, patient ID or other unique identifiers.
 - `control_experimental`: Please use one of the following: control/experimental
-- `replicate_num`: Replicate number (integer)
+- `replicate_num`: Biological replicate number (integer)
 - `is_paired_end`: Please use one of the following: true/false
 - `read_end`: Please use on of the following: R1/R2/NA
 - `experimental_type`: Please describe the experiment type. Could be one of the following: overexpression/knockdown/drug_treatment.
