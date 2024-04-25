@@ -11,7 +11,7 @@ This documentation provides additional information to fill out every field.
 - **Submitter name**: Your name
 - **Submitter email**: Your institution email
 - **Project title:** Short title used as reference of the sample study
-- **Project description**: Short description of the purpose of the study. Make sure to use a single line within the csv file.
+- **Project description**: Short description of the purpose of the study. Make sure to use a single field within the csv file.
 
 ## Table
 
