@@ -51,4 +51,5 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 - `read_end`: Please use on of the following: R1/R2/NA
 - `experimental_type`: Please describe the experiment type. Could be one of the following: overexpression/knockdown/drug_treatment.
 - `dose`: Dose of the administered drug
+- `sequencing_instrument`: sequencing instrument on which the samples were run on
 - `description`: Additional comments on the sample
