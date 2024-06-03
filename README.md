@@ -29,10 +29,10 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 
   | **run_id** | **smart_id** | **data_type** | **read_end** |
   | --- | --- | --- | --- |
-  | 123_0313.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R1 |
-  | 123_0314.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R2 |
-  | 123_0315.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R1 |
-  | 123_0316.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R2 |
+  | 123_0313_R1.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R1 |
+  | 123_0314_R2.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R2 |
+  | 123_0315_R1.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R1 |
+  | 123_0316_R2.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R2 |
 
 - `data_type`: Please use one of the following terms:
   - RNA_seq
