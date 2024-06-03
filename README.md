@@ -27,12 +27,12 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 
   Example for RNA_seq data featuring two biological replicates:
 
-  | **run_id** | **smart_id** |
-  | --- | --- |
-  | DIPG13_K27M_5Gy_1_S135_R1.fastq.gz | DIPG13_K27M_5Gy_1 |
-  | DIPG13_K27M_5Gy_1_S135_R2.fastq.gz | DIPG13_K27M_5Gy_1 |
-  | DIPG13_K27M_5Gy_2_S135_R1.fastq.gz | DIPG13_K27M_5Gy_2 |
-  | DIPG13_K27M_5Gy_2_S135_R2.fastq.gz | DIPG13_K27M_5Gy_2 |
+  | **run_id** | **smart_id** | **data_type** | **read_end** |
+  | --- | --- | --- | --- |
+  | DIPG13_K27M_5Gy_1_S135_R1.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R1 |
+  | DIPG13_K27M_5Gy_1_S135_R2.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R2 |
+  | DIPG13_K27M_5Gy_2_S135_R1.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R1 |
+  | DIPG13_K27M_5Gy_2_S135_R2.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R2 |
 
 - `data_type`: Please use one of the following terms:
   - RNA_seq
