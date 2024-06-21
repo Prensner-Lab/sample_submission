@@ -23,7 +23,7 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
   - They are paired-end samples (e.g. R1 and R2; see field `read_end`)
   - They only differ from their data protocol (e.g. RNA_seq/Ribo_seq; see field `data_type`)
 
-  Samples with identical smart_id’s are only merged if they have the same values in the `data_type` and `read_end` field. `smart_id` is furthermore used to identify samples in the result reports. As such, make sure the smart_id carries all identifying information relevant for identification within the project (e.g., control/replicate/dose/…)
+  Samples with identical smart_id’s are only merged if they have the same values in the `data_type` and `read_end` field. `smart_id` is furthermore used to identify samples in the result reports. As such, include essential information relevant for identification of the sample (e.g., control/replicate/dose/…) while excluding any of the nondescript or redundant info present within the original `run_id` of the sample. 
 
   Example for RNA_seq data featuring two biological replicates:
 
