@@ -7,7 +7,7 @@ This documentation provides additional information to fill out every field.
 ## Metadata
 
 - **PI name**: Name of Principal Investigator of the lab
-- **Date**: Date at which samples were created.
+- **Date**: Date at which samples were created. **Use YYYYMMDD format** (don't use additional '/' or '-').
 - **Submitter name**: Your name
 - **Submitter email**: Your institution email
 - **Project title:** Short title used as reference of the sample study
@@ -52,5 +52,5 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 - `experimental_type`: Please describe the experiment type. Could be one of the following: overexpression/knockdown/drug_treatment.
 - `dose`: Dose of the administered drug
 - `sequencing_instrument`: sequencing instrument on which the samples were run on
-- `batch_date`: date of processing. Can be different when project data is retrieved over multiple batches. Or when Ribo-seq and RNA-seq are processed at different dates.
+- `batch_date`: date of processing. **Use YYYYMMDD format** (don't use additional '/' or '-'). Can be different when project data is retrieved over multiple batches. Or when Ribo-seq and RNA-seq are processed at different dates.
 - `description`: Additional comments on the sample
