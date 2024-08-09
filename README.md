@@ -23,18 +23,22 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
   | **run_id** | **smart_id** | **data_type** | **read_end** | **replicate_num** |  **dose** |
   | --- | --- | --- | --- | --- | --- |
   | 123_0313_R1.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R1 | 1 | 5Gy |
+  | 123_0313_R2.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R2 | 1 | 5Gy |
+  | 123_0314_R1.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R1 | 2 | 5Gy |
   | 123_0314_R2.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R2 | 2 | 5Gy |
   | 123_0315_R1.fastq.gz | DIPG13_K27M_10Gy_1 | RNA_seq | R1 | 1 | 10 Gy |
+  | 123_0315_R2.fastq.gz | DIPG13_K27M_10Gy_1 | RNA_seq | R2 | 1 | 10 Gy |
+  | 123_0316_R1.fastq.gz | DIPG13_K27M_10Gy_2 | RNA_seq | R1 | 2 | 10 Gy |
   | 123_0316_R2.fastq.gz | DIPG13_K27M_10Gy_2 | RNA_seq | R2 | 2 | 10 Gy |
 
-Furthermore, this `smart_id` links samples through several rules. Samples are supposed to share the same `smart_id` when:
-  - They are meant to be merged (reads are combined), e.g. multiple technical replicates run for greater read depth. Don't use the same `smart_id` for biological replicates!
-  - They are paired-end samples (e.g. R1 and R2; see field `read_end`)
+  This `smart_id` links samples through several rules. Samples are supposed to share the same `smart_id` when:
+  - They are paired-end samples (e.g. R1 and R2; see field `read_end` and above example)
   - They only differ from their data protocol (e.g. RNA_seq/Ribo_seq; see field `data_type`)
+  - They are meant to be merged (reads are combined), e.g. multiple technical replicates run for greater read depth. Don't use the same `smart_id` for biological replicates!
 
   Samples are only merged if they have identical `smart_id`s and also have the same values in the `data_type` and `read_end` field. 
 
-- `data_type`: Please use one of the following terms:
+- `data_type`: Please use one of the following values:
   - RNA_seq
   - Ribo_seq
   - Disome_seq
