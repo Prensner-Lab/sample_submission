@@ -17,22 +17,22 @@ This documentation provides additional information to fill out every field.
 
 Please fill in `NA` if field is not applicable. Additional columns can be added when missing.
 
-- `run_id`: File name of the sample. Include the file extension.
-- `smart_id`: ID used for downstream processing of the samples. Furthermore, this `smart_id` links samples through several rules. Samples are supposed to share the same `smart_id` if:
+- `run_id`: File name of the data generated from the sample. Include the file extension. **Leave empty or use sample reference if filling out before data is processed**
+- `smart_id`: ID used for downstream processing of the samples. **Make sure this value is intelligible and differentiates samples from each other that are not supposed to be merged, as this `smart_id` is used in all the report files**. Use properties essential to the experimental set-up (E.g., KO vs. Control, Dose rates, replicate number). An example for RNA_seq data featuring two biological replicates:
+
+  | **run_id** | **smart_id** | **data_type** | **read_end** | **replicate_num** |  **dose** |
+  | --- | --- | --- | --- | --- | --- |
+  | 123_0313_R1.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R1 | 1 | 5Gy |
+  | 123_0314_R2.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R2 | 2 | 5Gy |
+  | 123_0315_R1.fastq.gz | DIPG13_K27M_10Gy_1 | RNA_seq | R1 | 1 | 10 Gy |
+  | 123_0316_R2.fastq.gz | DIPG13_K27M_10Gy_2 | RNA_seq | R2 | 2 | 10 Gy |
+
+Furthermore, this `smart_id` links samples through several rules. Samples are supposed to share the same `smart_id` when:
   - They are meant to be merged (reads are combined), e.g. multiple technical replicates run for greater read depth. Don't use the same `smart_id` for biological replicates!
   - They are paired-end samples (e.g. R1 and R2; see field `read_end`)
   - They only differ from their data protocol (e.g. RNA_seq/Ribo_seq; see field `data_type`)
 
-  Samples with identical smart_id’s are only merged if they have the same values in the `data_type` and `read_end` field. `smart_id` is furthermore used to identify samples in the result reports. As such, include essential information relevant for identification of the sample (e.g., control/replicate/dose/…) while excluding any of the nondescript or redundant info present within the original `run_id` of the sample. 
-
-  Example for RNA_seq data featuring two biological replicates:
-
-  | **run_id** | **smart_id** | **data_type** | **read_end** |
-  | --- | --- | --- | --- |
-  | 123_0313_R1.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R1 |
-  | 123_0314_R2.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R2 |
-  | 123_0315_R1.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R1 |
-  | 123_0316_R2.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R2 |
+  Samples are only merged if they have identical `smart_id`s and also have the same values in the `data_type` and `read_end` field. 
 
 - `data_type`: Please use one of the following terms:
   - RNA_seq
