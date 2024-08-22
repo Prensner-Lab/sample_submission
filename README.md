@@ -1,6 +1,11 @@
 # Sample submission guideline
 
-When submitting data to the lab, please fill out [the data submission file](https://github.com/Prensner-Lab/sample_submission/blob/main/sample_submission_prensner_lab.csv), rename it to properly reflect the project, and send it to [clauwaer@umich.edu](mailto:clauwaer@umich.edu). When using Excel, please save as a `.csv` file format after editing. as such, refrain from using comma’s within field entries.
+When submitting data to the lab, please fill out [the data submission file](https://github.com/Prensner-Lab/sample_submission/blob/main/sample_submission_prensner_lab.csv), rename it to properly reflect the project, and send it to [clauwaer@umich.edu](mailto:clauwaer@umich.edu).
+
+Some notes:
+  - When using Excel, please save as a `.csv` file format after editing.
+  - Refrain from using comma’s within field entries.
+  - Use the underscore character ('_') instead of spaces in the main Table (not the Metadata section).
 
 When renaming the sample submission sheet, follow the naming convention `YYYYMMDD_<project_id>_sample_sheet.csv`. Where the project ID reflects the experimental setup of the data. Examples are `20240615_MS_MBL_MYC_groups_sample_sheet.csv`, `20220927_A673_bromo_menin_inhibitor_treatment_sample_sheet.csv`.
 
@@ -28,10 +33,10 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
   | 123_0313_R2.fastq.gz | DIPG13_K27M_5Gy_1 | RNA_seq | R2 | 1 | 5Gy |
   | 123_0314_R1.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R1 | 2 | 5Gy |
   | 123_0314_R2.fastq.gz | DIPG13_K27M_5Gy_2 | RNA_seq | R2 | 2 | 5Gy |
-  | 123_0315_R1.fastq.gz | DIPG13_K27M_10Gy_1 | RNA_seq | R1 | 1 | 10 Gy |
-  | 123_0315_R2.fastq.gz | DIPG13_K27M_10Gy_1 | RNA_seq | R2 | 1 | 10 Gy |
-  | 123_0316_R1.fastq.gz | DIPG13_K27M_10Gy_2 | RNA_seq | R1 | 2 | 10 Gy |
-  | 123_0316_R2.fastq.gz | DIPG13_K27M_10Gy_2 | RNA_seq | R2 | 2 | 10 Gy |
+  | 123_0315_R1.fastq.gz | DIPG13_K27M_10Gy_1 | RNA_seq | R1 | 1 | 10Gy |
+  | 123_0315_R2.fastq.gz | DIPG13_K27M_10Gy_1 | RNA_seq | R2 | 1 | 10Gy |
+  | 123_0316_R1.fastq.gz | DIPG13_K27M_10Gy_2 | RNA_seq | R1 | 2 | 10Gy |
+  | 123_0316_R2.fastq.gz | DIPG13_K27M_10Gy_2 | RNA_seq | R2 | 2 | 10Gy |
 
   This `smart_id` links samples through several rules. Samples are supposed to share the same `smart_id` when:
   - They are paired-end samples (e.g. R1 and R2; see field `read_end` and above example)
