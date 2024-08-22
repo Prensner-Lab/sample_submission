@@ -56,7 +56,7 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 - `is_paired_end`: Please use one of the following: true/false
 - `read_end`: Please use on of the following: R1/R2/NA
 - `experimental_type`: Please describe the experiment type. Could be one of the following: overexpression/knockdown/drug_treatment.
-- `dose`: Dose of the administered drug
+- `dose`: Dose of the administered drug **OR gene that is knocked out/overexpressed**
 - `sequencing_instrument`: sequencing instrument on which the samples were run on
 - `batch_date`: date of processing. **Use YYYYMMDD format** (don't use additional '/' or '-'). Can be different when project data is retrieved over multiple batches. Or when Ribo-seq and RNA-seq are processed at different dates.
 - `description`: Additional comments on the sample
