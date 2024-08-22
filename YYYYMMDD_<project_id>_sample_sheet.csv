@@ -1,7 +1,7 @@
-# PI name ,{...},,,,,,,,,,,,
-# Date,{...},,,,,,,,,,,,
-# Submitter name,{...},,,,,,,,,,,,
-# Submitter email,{...},,,,,,,,,,,,
-# Project title,{...},,,,,,,,,,,,
-# Project description,{...},,,,,,,,,,,,
-run_id,smart_id,data_type,species,type,source_id,control_experimental,replicate_num,is_paired_end,read_end,experimental_type,dose,sequencing_instrument,batch_date,description
+# PI name ,{...},,,,,,,,,,,,,
+# Date,{...},,,,,,,,,,,,,
+# Submitter name,{...},,,,,,,,,,,,,
+# Submitter email,{...},,,,,,,,,,,,,
+# Project title,{...},,,,,,,,,,,,,
+# Project description,{...},,,,,,,,,,,,,
+run_id,smart_id,data_type,species,sample_type,source_id,is_paired_end,read_end,experiment_type,control_treated,treatment_id,replicate_num,sequencing_instrument,batch_date,description
