@@ -1,13 +1,13 @@
 # Sample submission guideline
 
-When submitting data to the lab, please fill out [the data submission file](https://github.com/Prensner-Lab/sample_submission/blob/main/sample_submission_prensner_lab.csv), rename it to properly reflect the project, and send it to [clauwaer@umich.edu](mailto:clauwaer@umich.edu).
+When submitting data to the lab, please fill out [the data submission file](https://raw.githubusercontent.com/Prensner-Lab/sample_submission/main/YYYYMMDD_%3Cproject_id%3E_sample_sheet.csv), rename it to properly reflect the project, and send it to [clauwaer@umich.edu](mailto:clauwaer@umich.edu).
 
 Some notes:
-  - When using Excel, please save as a `.csv` file format after editing.
+  - When using Excel, please save as a `.csv` file format after editing. The file is parsed by our pipelines and therefore needs to be in a [flat file format](https://en.wikipedia.org/wiki/Flat-file_database).
   - Refrain from using comma’s within field entries.
   - Use the underscore character ('_') instead of spaces in the main Table (not the Metadata section).
 
-When renaming the sample submission sheet, follow the naming convention `YYYYMMDD_<project_id>_sample_sheet.csv`. Where the project ID reflects the experimental setup of the data. Examples are `20240615_MS_MBL_MYC_groups_sample_sheet.csv`, `20220927_A673_bromo_menin_inhibitor_treatment_sample_sheet.csv`.
+When renaming the sample submission sheet, follow the naming convention `YYYYMMDD_<project_id>_sample_sheet.csv`. Where the project ID reflects the experimental setup of the data (e.g., `20240615_MS_MBL_MYC_groups_sample_sheet.csv`, `20220927_A673_bromo_menin_inhibitor_treatment_sample_sheet.csv`.
 
 This documentation provides additional information to fill out every field.
 
