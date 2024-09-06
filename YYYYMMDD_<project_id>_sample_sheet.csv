@@ -4,4 +4,4 @@
 # Submitter email,{...},,,,,,,,,,,,,
 # Project title,{...},,,,,,,,,,,,,
 # Project description,{...},,,,,,,,,,,,,
-run_id,smart_id,data_type,species,sample_type,source_id,is_paired_end,read_end,experiment_type,control_treated,treatment_id,replicate_num,sequencing_instrument,batch_date,description
+run_id,smart_id,data_type,species,sample_type,source_id,is_paired_end,read_end,experiment_type,test_or_control,treatment_id,replicate_num,sequencing_instrument,batch_date,description
