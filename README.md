@@ -48,6 +48,7 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 - `data_type`: Please use one of the following values:
   - RNA_seq
   - Ribo_seq
+  - ONTRNA_seq
   - Disome_seq
   - ChIP_seq
   - Exome_seq
