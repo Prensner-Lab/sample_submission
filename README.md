@@ -61,6 +61,8 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
 - `read_end`: Please use on of the following: R1/R2/NA
 - `experiment_type`: Could be one of the following: overexpression/knockdown/drug_treatment.
 - `test_or_control`: Used by the differential expression pipeline to understand which sample is the reference. Use either `test` or `control`.
+- `location_id`
+- `disease_id`
 - `treatment_id`: Use a short string to denote one or multiple treatment groups, such as the amount of administered drug and/or the gene that is knocked out/overexpressed (e.g. `K27M_noIR`, `K27M_5Gy`, `K27M_10Gy`, `KO_noIR`, `KO_5Gy`, `KO_10Gy`). In other cases, for large sample cohorts, it might be more applicable to use sample types (e.g., Cancer type `MBL_group_3`, `MBL_group_2`, etc.). Treatment ID's determine how samples are grouped for differential expression analysis, where each group of samples is compared against all other groups. Replicates should be grouped together (i.e. sharing the same treatment ID).
 - `replicate_num`: Biological replicate number (integer)
 - `sequencing_instrument`: sequencing instrument on which the samples were run on
