@@ -52,7 +52,7 @@ Please fill in `NA` if field is not applicable. Additional columns can be added 
   - Disome_seq
   - ChIP_seq
   - Exome_seq
-  - Whole_genome_seq
+  - WGS
   - Other (detail further in description)
 - `species`: Species identifier
 - `sample_type`: Please use one of the following: autopsy/tissue_sample/cell_line
