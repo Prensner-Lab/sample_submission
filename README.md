@@ -1,5 +1,6 @@
 # Sample submission guideline
 
+# NOTE: REFER TO (https://docs.google.com/spreadsheets/d/12ghgV_agYnepJ4B8aMvt7RLX8n6RFVRz4j3CEHhFIAU/edit?usp=sharing)[https://docs.google.com/spreadsheets/d/12ghgV_agYnepJ4B8aMvt7RLX8n6RFVRz4j3CEHhFIAU/edit?usp=sharing] INSTEAD FOR SAMPLE SHEET SUBMISSION
 When submitting data to the lab, please fill out [the data submission file](https://raw.githubusercontent.com/Prensner-Lab/sample_submission/main/YYYYMMDD_%3Cproject_id%3E_sample_sheet.csv), rename it to properly reflect the project, and send it to [clauwaer@umich.edu](mailto:clauwaer@umich.edu).
 
 Some notes:
